@@ -1,0 +1,22 @@
+# Configuration example - copy this to config.local and customize
+
+# Backup settings
+BACKUP_RETENTION_DAYS=7
+BACKUP_COMPRESSION=true
+
+# Deployment settings
+DEPLOY_TIMEOUT=300
+DEPLOY_RETRIES=3
+
+# Notification settings
+SLACK_WEBHOOK_URL=""
+EMAIL_NOTIFICATIONS=false
+EMAIL_RECIPIENTS=""
+
+# Monitoring thresholds
+HEALTH_CHECK_INTERVAL=60
+ALERT_THRESHOLD_CPU=80
+ALERT_THRESHOLD_MEMORY=85
+ALERT_THRESHOLD_DISK=90
+
+

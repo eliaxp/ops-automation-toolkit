@@ -1,0 +1,29 @@
+# Config files with sensitive data
+config/config.local
+*.local
+*.env
+.env.local
+
+# Logs
+*.log
+logs/
+*.log.*
+
+# Temporary files
+*.tmp
+*.swp
+*~
+.DS_Store
+
+# Backup files
+*.bak
+*.backup
+backups/
+
+# IDE
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+
